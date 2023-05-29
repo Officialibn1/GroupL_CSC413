@@ -26,14 +26,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 100px;
     border-bottom: 2px solid var(--border-color);
 }
 
-.title {
-    font-size: 30px;
+.logoWrapper {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: .5em;
+}
+
+.logo {
+    font-size: 40px;
     letter-spacing: 2px;
-    color:  var(--text-color);
+    color:  var(--border-color);
+}
+
+.logoText {
+    font-size: 25px;
+    color:  var(--border-color);
 }
 
 .navLinks ul {
@@ -64,7 +76,42 @@ body {
 .navLinks ul a:hover::before {
     width: 100%;
 }
+.main {
+    width: 100%;
+    padding: 40px 0;
+}
 
+.mainContent {
+    width: 70%;
+    min-width: 400px;
+    margin: 0 auto;
+    /* border: 2px solid var(--border-color); */
+
+}
+
+.mainContent h1 {
+    font-size: 35px;
+    color: var(--text-color);
+}
+
+.lead {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 30px 0;
+    color: var(--text-color);
+}
+
+.assignment {
+    border: 2px solid var(--border-color);
+    margin: 40px 0;
+    padding: 40px 0;
+}
+
+.members {
+    border: 2px solid var(--border-color);
+    margin: 40px 0;
+    padding: 40px 0;
+}
 
 
 
