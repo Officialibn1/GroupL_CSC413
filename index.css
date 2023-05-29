@@ -257,6 +257,20 @@ footer span {
         justify-content: flex-end;
         cursor: pointer;
     }
+
+    .main {
+        margin-top: 30px;
+    }
+
+    header {
+        padding: 0 25px;
+        text-align: center;
+    }
+
+    .about {
+        padding: 0 25px;
+        text-align: center;
+    }
 }
 
 
