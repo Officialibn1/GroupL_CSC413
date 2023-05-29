@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Material Link -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
 
     <link rel="stylesheet" href="index.css">
     <title>Group L CSC413</title>
@@ -27,9 +30,24 @@
         <div class="navLinks" id="navLinks">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Assignments</a></li>
-                <li><a href="#">Members</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+
+        <span class="material-icons-outlined open" id="open">
+            menu
+        </span>
+
+        <div class="mobileNavLinks" id="mobileNavLinks">
+            <span class="material-icons-outlined close" id="close">
+                close
+            </span>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
         </div>
     </nav>
@@ -44,6 +62,7 @@
 
                 <p class="lead">
                     Welcome to our webpage! Here, we proudly present the remarkable assignment accomplished by Group L, a team of dedicated individuals who have collaborated harmoniously to complete their assigned task.
+
                 </p>
             </header>
 
@@ -55,21 +74,42 @@
                 
             </div>
 
-            <div class="members">
+            <div class="members" id="members">
                 <h1>
                     Members
                 </h1>
 
                 <div class="avatarWrapper">
-                    <div class="avatar"></div>
-                    <div class="avatar"></div>
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src="./img/officialibn.jpg" alt="officialibn">
+
+                        <h2>Isah Ibn Muhammad</h2>
+
+                        <h3>U18/FNS/CSC/1037</h3>
+                    </div>
+                    
+                    <div class="avatar">
+                        <img src="./img/gimba.jpeg" alt="officialibn">
+
+                        <h2>Gimba Umar Alhassan</h2>
+
+                        <h3>U18/FNS/CSC/1033</h3>
+                    </div>
+                    
+                    <div class="avatar">
+                        <img src="./img/deeper.jpeg" alt="officialibn">
+
+                        <h2>Muhammad Deeper</h2>
+
+                        <h3>U18/FNS/CSC/1037</h3>
+                    </div>
+                    
                 </div>
 
 
             </div>
 
-            <div class="about">
+            <div class="about" id="about">
                 <h1>
                     About
                 </h1>
@@ -82,11 +122,17 @@
             </div>
             
             <footer>
+                <p>
+                    In honor of our Parents, Lecturer's and Supportive Friends.
+                </p>
 
+                <span>
+                    &copy;Copyright 2018-2023 CSC Set. &reg;All Rights Reserved.
+                </span>
             </footer>
         </div>
     </section>
     
-
+    <script src="index.js"></script>
 </body>
 </html>
