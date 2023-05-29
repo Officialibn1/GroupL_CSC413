@@ -207,6 +207,7 @@ footer span {
     .navBar {
         padding: 0 30px;
         position: relative;
+        border-bottom: none;
     }
 
     .navLinks {
