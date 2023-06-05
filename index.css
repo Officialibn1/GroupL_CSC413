@@ -274,6 +274,9 @@ footer span {
         cursor: pointer;
     }
 
+    .container {
+        padding: 40px 10%;
+    }
     .main {
         margin-top: 30px;
     }
