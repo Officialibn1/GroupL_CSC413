@@ -15,9 +15,11 @@
 
 body {
     position: relative;
+    width: 100%;
 }
 
 .container {
+    width: 100%;
     margin: 40px 0;
     padding: 40px 0;
 }
@@ -148,11 +150,6 @@ body {
 
 .mindmap img {
     width: 100%;
-}
-
-.members {
-    margin: 40px 0;
-    padding: 40px 0;
 }
 
 .avatarWrapper {
