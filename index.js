@@ -14,20 +14,20 @@ close.addEventListener('click', togglerNavbar);
 
 var navLlink = document.getElementById('link')
 
-navLlink.addEventListener('click', toggleNav)
+navLlink.addEventListener('click', togglerNavbar)
 
 var navLlink2 = document.getElementById('link2')
 
-navLlink2.addEventListener('click', toggleNav)
+navLlink2.addEventListener('click', togglerNavbar)
 
 var navLlink3 = document.getElementById('link3')
 
-navLlink3.addEventListener('click', toggleNav)
+navLlink3.addEventListener('click', togglerNavbar)
 
 var navLlink4 = document.getElementById('link4')
 
-navLlink4.addEventListener('click', toggleNav)
+navLlink4.addEventListener('click', togglerNavbar)
 
 var navLlink5 = document.getElementById('link5')
 
-navLlink5.addEventListener('click', toggleNav)
+navLlink5.addEventListener('click', togglerNavbar)

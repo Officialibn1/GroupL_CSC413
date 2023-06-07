@@ -72,6 +72,7 @@ body {
     color:  var(--text-color);
     font-size: 18px;
     position: relative;
+    text-transform: uppercase;
 }
 
 .navLinks ul a::before {
@@ -118,6 +119,16 @@ body {
     color: var(--text-color);
     font-weight: 300;
     text-align: justify;
+}
+
+.sdnImg {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.sdnImg img {
+    width: 100%;
 }
 
 .download {
@@ -214,16 +225,25 @@ footer span {
     display: none;
 }
 
+.navWrapper {
+    display: none;
+}
+
 
 @media(max-width: 720px) {
     .navBar {
         padding: 0 30px;
-        position: relative;
+        position: fixed;
         border-bottom: none;
     }
 
     .navLinks {
         display: none;
+    }
+
+    .navWrapper {
+        position: relative;
+        display: block;
     }
 
     .open {
@@ -235,17 +255,17 @@ footer span {
 
     .mobileNavLinks {
         display: block;
-        width: 100%;
+        width: 100vw;
         position: absolute;
-        top: 0;
-        left: -100%;
+        top: -18px;
+        left: -200vw;
         background-color: #fff;
         border-bottom: 2px solid var(--border-color);
         transition: left 250ms;
     }
 
     .show {
-        left: 0;
+        left: -85vw;
     }
 
     .mobileNavLinks ul {
@@ -253,7 +273,7 @@ footer span {
         flex-direction: column;
         list-style: none;
         width: 100%;
-        padding: 20px 30px;
+        padding: 20px 50px;
         gap: 1em;
     }
 
@@ -261,18 +281,19 @@ footer span {
         color: var(--text-color);
         font-size: 18px;
         text-decoration: none;
+        text-transform: uppercase;
     }
 
     .material-icons-outlined.close {
         font-size: 34px;
         display: flex;
-        padding: 10px 20px;
+        padding: 25px 20px 10px;
         justify-content: flex-end;
         cursor: pointer;
     }
 
     .container {
-        padding: 40px 10%;
+        padding: 40px 8%;
     }
     .main {
         margin-top: 30px;
